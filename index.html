@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+    <!-- HEADER DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Bhanu Prakash</h1>
+            <h3>And I am a <span class="multiple-text"></span></h3>
+            <p>I am a motivated web developer with a strong grasp of HTML, CSS, and JavaScript, eager to contribute my skills to creating engaging and functional websites. I am passionate about user experience and continually expanding my knowledge to deliver clean and efficient code. Ready to collaborate and grow in dynamic team environments, I am committed to turning ideas into impactful digital solutions.</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/michio_raiden/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/bhanu-prakash-avula-a7071b206/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="./myresume.pdf" download="resume" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/profilephoto.jpeg" alt="" class="my_image">
+        </div>
+
+    </section>
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/3d-portrait-people.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>FrontEnd Developer</h3>
+            <p>Hello! I'm Bhanu Prakash, a passionate web developer with a keen interest in crafting meaningful digital experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in creating clean, responsive websites that prioritize user experience and functionality. My interests extend beyond web development to encompass machine learning and AI, where I am eager to explore and contribute to the latest advancements in these fields. I am driven by curiosity and a continuous desire to learn, constantly exploring new technologies and trends in both web development and AI. Beyond coding, I bring creativity and attention to detail to every project, striving to deliver solutions that not only meet but exceed expectations. I am eager to collaborate, innovate, and contribute to projects that challenge me to grow professionally and make a positive impact in the digital realm.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+    <!--SERVICEs SECTION DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-css3"></i>
+                <h3>CSS</h3>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="services-box">
+                <i class="fa-brands fa-react"></i>
+                <h3>React</h3>
+            </div>
+        </div>
+    </section>
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Virtual Mouse</h4>
+                    <!-- <p>Built a virtual mouse controlled by hand gestures using OpenCV and mediapipe libraries.This has improved my knowledge in the domain of computervison.</p> -->
+                    <a href="https://github.com/BhanuPrakash006/Gesture-Controlled-Virtual-Mouse" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/2.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather Application</h4>
+                    <!-- <p>I also developed a weather application that utilizes location-based data to provide real-time weather information. </p> -->
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Portfolio Website</h4>
+                    <!-- <p>I crafted my portfolio website using HTML, CSS, and JavaScript to ensure responsiveness across all devices.</p> -->
+                    <a href="https://bhanu19portfolio.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---CONTACT SECTION DESIGN-->
+    <!--FOOTER DESIGN-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1705f98a-96d3-472a-bc3c-e867c614e77f">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" placeholder="Mobile Number" required>
+                <input type="text" name="Subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="messsage" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" value="Send Message" class="btn">Send Message</button>
+        </form>
+    </section>
+    <!--FOOTER SECTION-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright <i class="fa-solid fa-copyright"></i> 2024 by Bhanu Prakash | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
